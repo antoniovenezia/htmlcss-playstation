@@ -137,21 +137,15 @@ nav{
     width: 100%;
 }
 
-[class*="item-under-console-playstation-5"]{
+.item-under-console-playstation-5{
     border-bottom: 2px solid white;
     text-align: center;
+    opacity: 0.5;
 }
 
-[class*="item-under-console-playstation-5-"]:hover {
+.item-under-console-playstation-5:hover {
     border-bottom: 2px solid blue;
-}
-
-/* HOVER IMG .play-5-console */
-.item-under-console-playstation-5-1:hover .play-5-console{
-    display: none;
-}
-.item-under-console-playstation-5-1:hover .play-5-console{
-    display: none;
+    opacity: 1;
 }
 
 
