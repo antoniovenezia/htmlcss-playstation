@@ -146,6 +146,10 @@ nav{
     border-bottom: 2px solid blue;
 }
 
+/* HOVER IMG .play-5-console */
+.item-under-console-playstation-5-1:hover .play-5-console{
+    display: none;
+}
 .item-under-console-playstation-5-1:hover .play-5-console{
     display: none;
 }
