@@ -1,3 +1,16 @@
+/* CLASS UTILITY */
+.text-color-blue{
+    color: blue;
+}
+
+.text-color-grey{
+    color: grey;
+}
+/* END CLASS UTILITY */
+
+
+
+
 /* HEADER */
 header{
     background-color: black;
@@ -27,6 +40,7 @@ nav{
 /* JUMBOTRON */
 .jumbotron-fluid{
     background-image: url(../img/jumbo-bg.png);
+    background-position: center;
     background-size: cover;
     height: 550px;
     color: white;
@@ -35,7 +49,7 @@ nav{
 
 .returnal{
     width: 200px;
-    margin-top: 150px;
+    margin-top: 200px;
 } 
 
 .jumbotron-fluid button {
@@ -43,4 +57,28 @@ nav{
     border-radius: 30px;
     padding: 7px 15px;
     color: white;
+}
+
+
+
+/* ITEM UNDER JUMBOTRON */
+.items-under-jumbotron{
+    margin: 30px auto;
+}
+
+.item-white-under-jumbotron{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 12px auto;
+}
+
+.item-white-under-jumbotron img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.item-white-under-jumbotron:hover{
+    border: 2px solid blue;
 }
