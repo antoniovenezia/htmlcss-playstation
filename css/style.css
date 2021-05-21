@@ -183,3 +183,19 @@ nav{
 
 
 /* NUOVE USCITE */
+.container-fluid-nuove-uscite{
+    background-color: hsl(0deg 0% 12%);
+    color: white;
+}
+
+
+.container-fluid-nuove-uscite h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-fluid-nuove-uscite img{
+    width: 100%;
+    margin: 30px auto 10px auto;
+    border-radius: 30px;
+}
