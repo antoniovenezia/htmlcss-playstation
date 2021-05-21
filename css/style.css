@@ -257,6 +257,7 @@ nav{
     background-color: light-grey;
     color: blue;
     margin-top: 20px;
+    margin-bottom: 20px;
     border: none;
 }
 
@@ -293,6 +294,7 @@ nav{
     background-color: white;
     color: black;
     margin-top: 20px;
+    margin-bottom: 20px;
     border: none;
 }
 
@@ -324,4 +326,30 @@ nav{
 .container-social-media img {
     width: 100%;
     margin: 50px auto;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+.play-logo{
+    color: white;
+    width: 130px;
+}
+
+.sie-logo{
+    width: 120px;
+}
+
+[class*="item-footer"]{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.item-footer-list{
+    line-height: 40px;
 }
