@@ -6,6 +6,12 @@
 .text-color-grey{
     color: grey;
 }
+
+.button-default{
+    border-radius: 30px;
+    padding: 7px 15px;
+    color: white;   
+}
 /* END CLASS UTILITY */
 
 
@@ -81,4 +87,52 @@ nav{
 
 .item-white-under-jumbotron:hover{
     border: 2px solid blue;
+}
+
+
+
+/* TEXT UNDER JUMBOTRON */
+.container-text-under-jumbotron{
+    margin: 40px auto;
+}
+
+.container-text-under-jumbotron h1 {
+    margin-bottom: 25px;
+}
+
+
+
+/* CONSOLE PLAYSTATION 5 */
+.container-console-playstation-5 h1{
+    margin-bottom: 15px;
+}
+
+.container-console-playstation-5 button {
+    background-color: blue;
+    margin-top: 15px;
+}
+
+.container-console-playstation-5 img {
+    width: 100%;
+}
+
+
+
+
+/* ITEM UNDER CONSOLE PLAYSTATION 5 */
+.container-item-under-console-playstation-5 img{
+    width: 100%;
+}
+
+.container-item-under-console-playstation-5 img{
+    width: 150px;
+}
+
+.item-under-console-playstation-5{
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+.item-under-console-playstation-5:hover{
+    border-bottom: 2px solid blue;
 }
