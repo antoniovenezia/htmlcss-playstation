@@ -63,9 +63,6 @@ nav{
 
 .jumbotron-fluid button {
     background-color: red;
-    border-radius: 30px;
-    padding: 7px 15px;
-    color: white;
     margin-top: 25px;
 }
 
@@ -186,6 +183,7 @@ nav{
 .container-fluid-nuove-uscite{
     background-color: hsl(0deg 0% 12%);
     color: white;
+    padding-bottom: 40px;
 }
 
 
@@ -198,4 +196,132 @@ nav{
     width: 100%;
     margin: 30px auto 10px auto;
     border-radius: 30px;
+}
+
+
+
+/* ESPLORA PLAYSTATION 4 */
+.container-esplora-playstation-4{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container-esplora-playstation-4 .title-esplora-playstation-4 {
+    margin: 40px auto 25px auto;
+}
+
+.container-esplora-playstation-4 img{
+    width: 100%;
+}
+
+
+.item-esplora-playstation-4{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.container-esplora-playstation-4 h1{
+    margin: 15px auto;
+}
+
+
+.container-esplora-playstation-4 button {
+    background-color: blue;
+    margin: 15px auto;
+}
+
+
+
+/* PLAYSTATION PLUS */
+
+.container-playstation-plus{
+    background-color: hsl(20deg 2% 74%);
+}
+
+
+.ps-plus-sx img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.ps-plus-dx{
+    height: 100%;
+}
+
+.ps-plus-dx img{
+    width: 100%;
+    background-color: hsl(20deg 2% 74%);
+}
+
+.container-playstation-plus button{
+    background-color: light-grey;
+    color: blue;
+    margin-top: 20px;
+    border: none;
+}
+
+@media screen and (max-width: 769px){
+    .ps-plus-dx img{
+        width: 0;
+    }
+    .ps-plus-sx img {
+        margin-top: 30px;
+    }
+}
+
+
+
+/* SCONTI PS-STORE */
+.container-sconti-ps-store{
+    margin-top: 40px;
+}
+
+.container-sconti-ps-store img{
+    width: 100%;
+}
+
+
+
+/* PLAYSTATION NOW */
+.container-playstation-now{
+    background-color: hsl(230deg 46% 16%);
+    color: white;
+    margin: 50px auto;
+}
+
+.container-playstation-now button{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border: none;
+}
+
+.ps-now-sx img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.ps-now-dx{
+    height: 100%;
+}
+
+.ps-now-dx img{
+    width: 100%;
+}
+
+@media screen and (max-width: 769px){
+    .ps-now-dx img{
+        width: 0;
+    }
+    .ps-now-sx img {
+        margin-top: 30px;
+    }
+}
+
+
+
+/* SOCIAL MEDIA */
+.container-social-media img {
+    width: 100%;
+    margin: 50px auto;
 }
