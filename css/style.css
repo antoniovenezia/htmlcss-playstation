@@ -48,14 +48,17 @@ nav{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
-    height: 550px;
+    height: 650px;
     color: white;
+    padding-bottom: 50px;
 }
 
+.container-jumbotron{
+    height: 100%;
+}
 
 .returnal{
     width: 200px;
-    margin-top: 200px;
 } 
 
 .jumbotron-fluid button {
@@ -63,6 +66,11 @@ nav{
     border-radius: 30px;
     padding: 7px 15px;
     color: white;
+    margin-top: 25px;
+}
+
+.jumbotron-fluid h1 {
+    margin: 25px auto;
 }
 
 
@@ -125,7 +133,7 @@ nav{
 }
 
 .container-item-under-console-playstation-5 img{
-    width: 150px;
+    width: 100%;
 }
 
 .item-under-console-playstation-5{
@@ -136,3 +144,42 @@ nav{
 .item-under-console-playstation-5:hover{
     border-bottom: 2px solid blue;
 }
+
+
+
+
+/* IT TAKES TWO */
+.container-fluid-it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    color: white;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+.container-it-takes-two{
+    height: 100%;
+}
+
+
+.it-takes-two{
+    width: 200px;
+} 
+
+.container-fluid-it-takes-two button {
+    background-color: red;
+    border-radius: 30px;
+    padding: 7px 15px;
+    color: white;
+    margin-top: 25px;
+}
+
+.container-fluid-it-takes-two h1 {
+    margin: 25px auto;
+}
+
+
+
+/* NUOVE USCITE */
