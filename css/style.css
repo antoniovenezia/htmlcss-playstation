@@ -9,6 +9,9 @@ header img {
     width: 80px;
 }
 
+
+
+/* NAVBAR */
 nav{
     border: 1px solid black;
 }
@@ -17,4 +20,27 @@ nav{
     nav i, nav button{
         display: none;
     }
+}
+
+
+
+/* JUMBOTRON */
+.jumbotron-fluid{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+
+.returnal{
+    width: 200px;
+    margin-top: 150px;
+} 
+
+.jumbotron-fluid button {
+    background-color: red;
+    border-radius: 30px;
+    padding: 7px 15px;
+    color: white;
 }
