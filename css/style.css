@@ -31,17 +31,22 @@ header img {
 
 
 /* NAVBAR */
-nav{
-    border: 1px solid black;
+nav .button-default{
+    background-color: #363636;
 }
 
-@media screen and (max-width: 991px){;
-    nav i, nav button{
-        display: none;
-    }
+nav li, nav button{
+    margin-right: 25px;
 }
 
 
+.play-logo-navbar{
+    margin-right: 25px;
+}
+
+.lens-navbar{
+    width: 30px;
+}
 
 /* JUMBOTRON */
 .jumbotron-fluid{
