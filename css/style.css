@@ -48,6 +48,21 @@ nav li, nav button{
     width: 30px;
 }
 
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.icon-navbar::after {
+    display: inline-block;
+    content: "\f078";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+
+
 /* JUMBOTRON */
 .jumbotron-fluid{
     background-image: url(../img/jumbo-bg.png);
