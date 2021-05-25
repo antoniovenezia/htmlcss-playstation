@@ -48,6 +48,10 @@ nav li, nav button{
     width: 30px;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+}
 
 .navbar-light .navbar-nav .nav-link{
     color: black;
