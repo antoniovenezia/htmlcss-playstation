@@ -67,6 +67,18 @@ nav li, nav button{
 }
 
 
+@media screen and (max-width: 1150px){
+    nav li, nav button{
+        margin-right: 5px;
+    }
+    
+    .play-logo-navbar{
+        margin-right: 5px;
+    }
+}
+
+
+
 
 /* JUMBOTRON */
 .jumbotron-fluid{
